@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/spring_sample.iml" filepath="$PROJECT_DIR$/spring_sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../spring_sample_java/spring_sample_java.iml" filepath="$PROJECT_DIR$/../spring_sample_java/spring_sample_java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../spring_sample_xml/spring_sample_xml/spring_sample_xml.iml" filepath="$PROJECT_DIR$/../spring_sample_xml/spring_sample_xml/spring_sample_xml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../spring_sample_xml_anno/spring_sample_xml_anno.iml" filepath="$PROJECT_DIR$/../spring_sample_xml_anno/spring_sample_xml_anno.iml" />
+    </modules>
+  </component>
+</project>
