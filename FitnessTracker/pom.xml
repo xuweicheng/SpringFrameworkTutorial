@@ -52,16 +52,22 @@
       <artifactId>spring-oxm</artifactId>
       <version>4.2.1.RELEASE</version>
     </dependency>
-    <!--<dependency>-->
-      <!--<groupId>com.fasterxml.jackson.core</groupId>-->
-      <!--<artifactId>jackson-core</artifactId>-->
-      <!--<version>2.4.0</version>-->
-    <!--</dependency>-->
-    <!--<dependency>-->
-      <!--<groupId>com.fasterxml.jackson.core</groupId>-->
-      <!--<artifactId>jackson-databind</artifactId>-->
-      <!--<version>2.7.4</version>-->
-    <!--</dependency>-->
+    <!--the following three jackson dependencies are required for json content to serialize to activities.json-->
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-databind</artifactId>
+      <version>2.4.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-annotations</artifactId>
+      <version>2.4.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-core</artifactId>
+      <version>2.4.0</version>
+    </dependency>
   </dependencies>
   <build>
     <finalName>FitnessTracker</finalName>
